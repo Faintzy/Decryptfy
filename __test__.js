@@ -11,7 +11,11 @@
 
 const decryptfy = require('./src/decryptfy.js')
 
-var hash = "b5c0b187fe309af0f4d35982fd961d7e" // love
+var hash = "9F2FEB0F1EF425B292F2F94BC8482494DF430413" // love
+
+/* 				MD5 				*/
+
+/*
 
 if(decryptfy.md5(hash).code == "ok") {
 
@@ -19,7 +23,22 @@ if(decryptfy.md5(hash).code == "ok") {
 
 } else {
 
-	console.log(`[!] We can't be decrypt your hash`)
+	console.log(`${decryptfy.md5(hash).msg}`)
 
 }
 
+*/
+
+/*				SHA1				  */
+
+/*
+
+if(decryptfy.sha1(hash).code == "ok") {
+	console.log(`[+] Found: ${decryptfy.sha1(hash).msg}`)
+} else {
+
+	console.log(`${decryptfy.sha1(hash).msg}`)
+
+}
+
+*/
