@@ -14,4 +14,4 @@ decryptfy.md5(hash) // return: Object: { code, msg }
 // To use your own wordlist: decryptfy.md5(hash, "./path/to/your/wordlist.txt")
 ```
 
-### https://github.com/sudoGabriel
+### https://github.com/Faintzy
